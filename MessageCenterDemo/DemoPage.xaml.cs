@@ -41,7 +41,7 @@ namespace MessageCenterDemo
 		private void UnSubscribeMessage()
 		{
 			MessagingCenter.Unsubscribe<DemoModel>(this, "Alert");
-			MessagingCenter.Unsubscribe<DemoPage>(this, "AlertMessage");
+			MessagingCenter.Unsubscribe<DemoModel>(this, "AlertMessage");
 		}
 	}
 }
